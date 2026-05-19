@@ -1,0 +1,4071 @@
+{
+  "TOP_K": {
+    "1": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.3961038961038961,
+          "Harmonic Mean of F and A": 0.1777374927982444
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.4943820224719101,
+            "recall": 0.6470588235294118,
+            "f1-score": 0.5605095541401274,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.6666666666666666,
+            "recall": 0.07407407407407407,
+            "f1-score": 0.13333333333333333,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.27906976744186046,
+            "recall": 0.2926829268292683,
+            "f1-score": 0.2857142857142857,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.15789473684210525,
+            "recall": 0.16666666666666666,
+            "f1-score": 0.16216216216216217,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 44,
+            "REFUTES": 0,
+            "NOT_ENOUGH_INFO": 18,
+            "DISPUTED": 6
+          },
+          "REFUTES": {
+            "SUPPORTS": 14,
+            "REFUTES": 2,
+            "NOT_ENOUGH_INFO": 8,
+            "DISPUTED": 3
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 21,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 12,
+            "DISPUTED": 7
+          },
+          "DISPUTED": {
+            "SUPPORTS": 10,
+            "REFUTES": 0,
+            "NOT_ENOUGH_INFO": 5,
+            "DISPUTED": 3
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    },
+    "3": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.4155844155844156,
+          "Harmonic Mean of F and A": 0.17962657919108657
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.4752475247524752,
+            "recall": 0.7058823529411765,
+            "f1-score": 0.5680473372781065,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.45454545454545453,
+            "recall": 0.18518518518518517,
+            "f1-score": 0.2631578947368421,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.30303030303030304,
+            "recall": 0.24390243902439024,
+            "f1-score": 0.2702702702702703,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.1111111111111111,
+            "recall": 0.05555555555555555,
+            "f1-score": 0.07407407407407407,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 48,
+            "REFUTES": 3,
+            "NOT_ENOUGH_INFO": 16,
+            "DISPUTED": 1
+          },
+          "REFUTES": {
+            "SUPPORTS": 17,
+            "REFUTES": 5,
+            "NOT_ENOUGH_INFO": 3,
+            "DISPUTED": 2
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 24,
+            "REFUTES": 2,
+            "NOT_ENOUGH_INFO": 10,
+            "DISPUTED": 5
+          },
+          "DISPUTED": {
+            "SUPPORTS": 12,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 4,
+            "DISPUTED": 1
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    },
+    "5": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.34415584415584416,
+          "Harmonic Mean of F and A": 0.1719155333499467
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.48,
+            "recall": 0.35294117647058826,
+            "f1-score": 0.4067796610169492,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.3333333333333333,
+            "recall": 0.037037037037037035,
+            "f1-score": 0.06666666666666667,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.29347826086956524,
+            "recall": 0.6585365853658537,
+            "f1-score": 0.40601503759398494,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.1111111111111111,
+            "recall": 0.05555555555555555,
+            "f1-score": 0.07407407407407407,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 24,
+            "REFUTES": 0,
+            "NOT_ENOUGH_INFO": 39,
+            "DISPUTED": 5
+          },
+          "REFUTES": {
+            "SUPPORTS": 11,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 14,
+            "DISPUTED": 1
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 11,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 27,
+            "DISPUTED": 2
+          },
+          "DISPUTED": {
+            "SUPPORTS": 4,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 12,
+            "DISPUTED": 1
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    },
+    "7": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.38961038961038963,
+          "Harmonic Mean of F and A": 0.17707535738445873
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.5666666666666667,
+            "recall": 0.5,
+            "f1-score": 0.53125,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.36363636363636365,
+            "recall": 0.2962962962962963,
+            "f1-score": 0.32653061224489793,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.28,
+            "recall": 0.34146341463414637,
+            "f1-score": 0.3076923076923077,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.18181818181818182,
+            "recall": 0.2222222222222222,
+            "f1-score": 0.2,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 34,
+            "REFUTES": 6,
+            "NOT_ENOUGH_INFO": 23,
+            "DISPUTED": 5
+          },
+          "REFUTES": {
+            "SUPPORTS": 6,
+            "REFUTES": 8,
+            "NOT_ENOUGH_INFO": 8,
+            "DISPUTED": 5
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 13,
+            "REFUTES": 6,
+            "NOT_ENOUGH_INFO": 14,
+            "DISPUTED": 8
+          },
+          "DISPUTED": {
+            "SUPPORTS": 7,
+            "REFUTES": 2,
+            "NOT_ENOUGH_INFO": 5,
+            "DISPUTED": 4
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    },
+    "10": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.35064935064935066,
+          "Harmonic Mean of F and A": 0.17271438239180176
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.4305555555555556,
+            "recall": 0.45588235294117646,
+            "f1-score": 0.44285714285714284,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.3333333333333333,
+            "recall": 0.25925925925925924,
+            "f1-score": 0.2916666666666667,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.2916666666666667,
+            "recall": 0.34146341463414637,
+            "f1-score": 0.3146067415730337,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.15384615384615385,
+            "recall": 0.1111111111111111,
+            "f1-score": 0.12903225806451613,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 31,
+            "REFUTES": 7,
+            "NOT_ENOUGH_INFO": 21,
+            "DISPUTED": 9
+          },
+          "REFUTES": {
+            "SUPPORTS": 11,
+            "REFUTES": 7,
+            "NOT_ENOUGH_INFO": 8,
+            "DISPUTED": 1
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 20,
+            "REFUTES": 6,
+            "NOT_ENOUGH_INFO": 14,
+            "DISPUTED": 1
+          },
+          "DISPUTED": {
+            "SUPPORTS": 10,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 5,
+            "DISPUTED": 2
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    }
+  },
+  "TFIDF_MAX_FEATURES": {
+    "50000": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.42207792207792205,
+          "Harmonic Mean of F and A": 0.18022579732716867
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.5588235294117647,
+            "recall": 0.5588235294117647,
+            "f1-score": 0.5588235294117647,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.5384615384615384,
+            "recall": 0.25925925925925924,
+            "f1-score": 0.35,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.32432432432432434,
+            "recall": 0.2926829268292683,
+            "f1-score": 0.3076923076923077,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.2222222222222222,
+            "recall": 0.4444444444444444,
+            "f1-score": 0.2962962962962963,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 38,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 18,
+            "DISPUTED": 11
+          },
+          "REFUTES": {
+            "SUPPORTS": 11,
+            "REFUTES": 7,
+            "NOT_ENOUGH_INFO": 4,
+            "DISPUTED": 5
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 13,
+            "REFUTES": 4,
+            "NOT_ENOUGH_INFO": 12,
+            "DISPUTED": 12
+          },
+          "DISPUTED": {
+            "SUPPORTS": 6,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 3,
+            "DISPUTED": 8
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    },
+    "100000": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.34415584415584416,
+          "Harmonic Mean of F and A": 0.1719155333499467
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.54,
+            "recall": 0.39705882352941174,
+            "f1-score": 0.4576271186440678,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.3684210526315789,
+            "recall": 0.25925925925925924,
+            "f1-score": 0.30434782608695654,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.24390243902439024,
+            "recall": 0.24390243902439024,
+            "f1-score": 0.24390243902439024,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.20454545454545456,
+            "recall": 0.5,
+            "f1-score": 0.2903225806451613,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 27,
+            "REFUTES": 5,
+            "NOT_ENOUGH_INFO": 19,
+            "DISPUTED": 17
+          },
+          "REFUTES": {
+            "SUPPORTS": 7,
+            "REFUTES": 7,
+            "NOT_ENOUGH_INFO": 7,
+            "DISPUTED": 6
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 12,
+            "REFUTES": 7,
+            "NOT_ENOUGH_INFO": 10,
+            "DISPUTED": 12
+          },
+          "DISPUTED": {
+            "SUPPORTS": 4,
+            "REFUTES": 0,
+            "NOT_ENOUGH_INFO": 5,
+            "DISPUTED": 9
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    },
+    "200000": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.36363636363636365,
+          "Harmonic Mean of F and A": 0.17424699621440723
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.5263157894736842,
+            "recall": 0.4411764705882353,
+            "f1-score": 0.48,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.3333333333333333,
+            "recall": 0.2222222222222222,
+            "f1-score": 0.26666666666666666,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.29508196721311475,
+            "recall": 0.43902439024390244,
+            "f1-score": 0.35294117647058826,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.1111111111111111,
+            "recall": 0.1111111111111111,
+            "f1-score": 0.1111111111111111,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 30,
+            "REFUTES": 5,
+            "NOT_ENOUGH_INFO": 27,
+            "DISPUTED": 6
+          },
+          "REFUTES": {
+            "SUPPORTS": 10,
+            "REFUTES": 6,
+            "NOT_ENOUGH_INFO": 8,
+            "DISPUTED": 3
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 10,
+            "REFUTES": 6,
+            "NOT_ENOUGH_INFO": 18,
+            "DISPUTED": 7
+          },
+          "DISPUTED": {
+            "SUPPORTS": 7,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 8,
+            "DISPUTED": 2
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    },
+    "300000": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.3961038961038961,
+          "Harmonic Mean of F and A": 0.1777374927982444
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.4857142857142857,
+            "recall": 0.5,
+            "f1-score": 0.4927536231884058,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.6,
+            "recall": 0.2222222222222222,
+            "f1-score": 0.32432432432432434,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.32075471698113206,
+            "recall": 0.4146341463414634,
+            "f1-score": 0.3617021276595745,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.19047619047619047,
+            "recall": 0.2222222222222222,
+            "f1-score": 0.20512820512820512,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 34,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 24,
+            "DISPUTED": 9
+          },
+          "REFUTES": {
+            "SUPPORTS": 11,
+            "REFUTES": 6,
+            "NOT_ENOUGH_INFO": 8,
+            "DISPUTED": 2
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 16,
+            "REFUTES": 2,
+            "NOT_ENOUGH_INFO": 17,
+            "DISPUTED": 6
+          },
+          "DISPUTED": {
+            "SUPPORTS": 9,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 4,
+            "DISPUTED": 4
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    },
+    "400000": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.2857142857142857,
+          "Harmonic Mean of F and A": 0.16355958389123496
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.5098039215686274,
+            "recall": 0.38235294117647056,
+            "f1-score": 0.4369747899159664,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.2857142857142857,
+            "recall": 0.07407407407407407,
+            "f1-score": 0.11764705882352941,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.21568627450980393,
+            "recall": 0.2682926829268293,
+            "f1-score": 0.2391304347826087,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.1111111111111111,
+            "recall": 0.2777777777777778,
+            "f1-score": 0.15873015873015872,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 26,
+            "REFUTES": 4,
+            "NOT_ENOUGH_INFO": 26,
+            "DISPUTED": 12
+          },
+          "REFUTES": {
+            "SUPPORTS": 9,
+            "REFUTES": 2,
+            "NOT_ENOUGH_INFO": 7,
+            "DISPUTED": 9
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 11,
+            "REFUTES": 0,
+            "NOT_ENOUGH_INFO": 11,
+            "DISPUTED": 19
+          },
+          "DISPUTED": {
+            "SUPPORTS": 5,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 7,
+            "DISPUTED": 5
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    },
+    "500000": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.35064935064935066,
+          "Harmonic Mean of F and A": 0.17271438239180176
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.5434782608695652,
+            "recall": 0.36764705882352944,
+            "f1-score": 0.43859649122807015,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.875,
+            "recall": 0.25925925925925924,
+            "f1-score": 0.4,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.2807017543859649,
+            "recall": 0.3902439024390244,
+            "f1-score": 0.32653061224489793,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.13953488372093023,
+            "recall": 0.3333333333333333,
+            "f1-score": 0.19672131147540983,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 25,
+            "REFUTES": 0,
+            "NOT_ENOUGH_INFO": 25,
+            "DISPUTED": 18
+          },
+          "REFUTES": {
+            "SUPPORTS": 6,
+            "REFUTES": 7,
+            "NOT_ENOUGH_INFO": 9,
+            "DISPUTED": 5
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 10,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 16,
+            "DISPUTED": 14
+          },
+          "DISPUTED": {
+            "SUPPORTS": 5,
+            "REFUTES": 0,
+            "NOT_ENOUGH_INFO": 7,
+            "DISPUTED": 6
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    }
+  },
+  "TFIDF_CANDIDATE_K": {
+    "100": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.3181818181818182,
+          "Harmonic Mean of F and A": 0.16848040255842855
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.5238095238095238,
+            "recall": 0.3235294117647059,
+            "f1-score": 0.4,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.5,
+            "recall": 0.037037037037037035,
+            "f1-score": 0.06896551724137931,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.2898550724637681,
+            "recall": 0.4878048780487805,
+            "f1-score": 0.36363636363636365,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.14634146341463414,
+            "recall": 0.3333333333333333,
+            "f1-score": 0.2033898305084746,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 22,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 32,
+            "DISPUTED": 13
+          },
+          "REFUTES": {
+            "SUPPORTS": 7,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 9,
+            "DISPUTED": 10
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 9,
+            "REFUTES": 0,
+            "NOT_ENOUGH_INFO": 20,
+            "DISPUTED": 12
+          },
+          "DISPUTED": {
+            "SUPPORTS": 4,
+            "REFUTES": 0,
+            "NOT_ENOUGH_INFO": 8,
+            "DISPUTED": 6
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    },
+    "200": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.3246753246753247,
+          "Harmonic Mean of F and A": 0.16937727187398674
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.45454545454545453,
+            "recall": 0.4411764705882353,
+            "f1-score": 0.44776119402985076,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.2,
+            "recall": 0.037037037037037035,
+            "f1-score": 0.0625,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.32,
+            "recall": 0.3902439024390244,
+            "f1-score": 0.3516483516483517,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.09090909090909091,
+            "recall": 0.16666666666666666,
+            "f1-score": 0.11764705882352941,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 30,
+            "REFUTES": 3,
+            "NOT_ENOUGH_INFO": 23,
+            "DISPUTED": 12
+          },
+          "REFUTES": {
+            "SUPPORTS": 15,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 5,
+            "DISPUTED": 6
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 13,
+            "REFUTES": 0,
+            "NOT_ENOUGH_INFO": 16,
+            "DISPUTED": 12
+          },
+          "DISPUTED": {
+            "SUPPORTS": 8,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 6,
+            "DISPUTED": 3
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    },
+    "300": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.33766233766233766,
+          "Harmonic Mean of F and A": 0.17109374352514112
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.45901639344262296,
+            "recall": 0.4117647058823529,
+            "f1-score": 0.43410852713178294,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.391304347826087,
+            "recall": 0.3333333333333333,
+            "f1-score": 0.36,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.26666666666666666,
+            "recall": 0.2926829268292683,
+            "f1-score": 0.27906976744186046,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.12,
+            "recall": 0.16666666666666666,
+            "f1-score": 0.13953488372093023,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 28,
+            "REFUTES": 8,
+            "NOT_ENOUGH_INFO": 22,
+            "DISPUTED": 10
+          },
+          "REFUTES": {
+            "SUPPORTS": 9,
+            "REFUTES": 9,
+            "NOT_ENOUGH_INFO": 6,
+            "DISPUTED": 3
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 16,
+            "REFUTES": 4,
+            "NOT_ENOUGH_INFO": 12,
+            "DISPUTED": 9
+          },
+          "DISPUTED": {
+            "SUPPORTS": 8,
+            "REFUTES": 2,
+            "NOT_ENOUGH_INFO": 5,
+            "DISPUTED": 3
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    },
+    "400": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.3181818181818182,
+          "Harmonic Mean of F and A": 0.16848040255842855
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.3707865168539326,
+            "recall": 0.4852941176470588,
+            "f1-score": 0.42038216560509556,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.3333333333333333,
+            "recall": 0.037037037037037035,
+            "f1-score": 0.06666666666666667,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.24193548387096775,
+            "recall": 0.36585365853658536,
+            "f1-score": 0.2912621359223301,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 33,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 34,
+            "DISPUTED": 0
+          },
+          "REFUTES": {
+            "SUPPORTS": 19,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 7,
+            "DISPUTED": 0
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 25,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 15,
+            "DISPUTED": 0
+          },
+          "DISPUTED": {
+            "SUPPORTS": 12,
+            "REFUTES": 0,
+            "NOT_ENOUGH_INFO": 6,
+            "DISPUTED": 0
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    },
+    "500": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.33116883116883117,
+          "Harmonic Mean of F and A": 0.17024801032570538
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.4411764705882353,
+            "recall": 0.4411764705882353,
+            "f1-score": 0.4411764705882353,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.4166666666666667,
+            "recall": 0.37037037037037035,
+            "f1-score": 0.39215686274509803,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.2727272727272727,
+            "recall": 0.21951219512195122,
+            "f1-score": 0.24324324324324326,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.06896551724137931,
+            "recall": 0.1111111111111111,
+            "f1-score": 0.0851063829787234,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 30,
+            "REFUTES": 8,
+            "NOT_ENOUGH_INFO": 16,
+            "DISPUTED": 14
+          },
+          "REFUTES": {
+            "SUPPORTS": 8,
+            "REFUTES": 10,
+            "NOT_ENOUGH_INFO": 4,
+            "DISPUTED": 5
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 20,
+            "REFUTES": 4,
+            "NOT_ENOUGH_INFO": 9,
+            "DISPUTED": 8
+          },
+          "DISPUTED": {
+            "SUPPORTS": 10,
+            "REFUTES": 2,
+            "NOT_ENOUGH_INFO": 4,
+            "DISPUTED": 2
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    }
+  },
+  "PRIOR_TOP_N": {
+    "0": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.38311688311688313,
+          "Harmonic Mean of F and A": 0.17639594386477542
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.475,
+            "recall": 0.5588235294117647,
+            "f1-score": 0.5135135135135135,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.5454545454545454,
+            "recall": 0.2222222222222222,
+            "f1-score": 0.3157894736842105,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.2682926829268293,
+            "recall": 0.2682926829268293,
+            "f1-score": 0.2682926829268293,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.18181818181818182,
+            "recall": 0.2222222222222222,
+            "f1-score": 0.2,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 38,
+            "REFUTES": 4,
+            "NOT_ENOUGH_INFO": 18,
+            "DISPUTED": 8
+          },
+          "REFUTES": {
+            "SUPPORTS": 9,
+            "REFUTES": 6,
+            "NOT_ENOUGH_INFO": 8,
+            "DISPUTED": 4
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 23,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 11,
+            "DISPUTED": 6
+          },
+          "DISPUTED": {
+            "SUPPORTS": 10,
+            "REFUTES": 0,
+            "NOT_ENOUGH_INFO": 4,
+            "DISPUTED": 4
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    },
+    "10": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.4155844155844156,
+          "Harmonic Mean of F and A": 0.17962657919108657
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.5471698113207547,
+            "recall": 0.4264705882352941,
+            "f1-score": 0.4793388429752066,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.4444444444444444,
+            "recall": 0.14814814814814814,
+            "f1-score": 0.2222222222222222,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.3484848484848485,
+            "recall": 0.5609756097560976,
+            "f1-score": 0.42990654205607476,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.3076923076923077,
+            "recall": 0.4444444444444444,
+            "f1-score": 0.36363636363636365,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 29,
+            "REFUTES": 3,
+            "NOT_ENOUGH_INFO": 28,
+            "DISPUTED": 8
+          },
+          "REFUTES": {
+            "SUPPORTS": 9,
+            "REFUTES": 4,
+            "NOT_ENOUGH_INFO": 10,
+            "DISPUTED": 4
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 11,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 23,
+            "DISPUTED": 6
+          },
+          "DISPUTED": {
+            "SUPPORTS": 4,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 5,
+            "DISPUTED": 8
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    },
+    "20": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.2727272727272727,
+          "Harmonic Mean of F and A": 0.16136024928871429
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.47619047619047616,
+            "recall": 0.29411764705882354,
+            "f1-score": 0.36363636363636365,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.3125,
+            "recall": 0.18518518518518517,
+            "f1-score": 0.23255813953488372,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.2619047619047619,
+            "recall": 0.2682926829268293,
+            "f1-score": 0.26506024096385544,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.1111111111111111,
+            "recall": 0.3333333333333333,
+            "f1-score": 0.16666666666666666,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 20,
+            "REFUTES": 8,
+            "NOT_ENOUGH_INFO": 21,
+            "DISPUTED": 19
+          },
+          "REFUTES": {
+            "SUPPORTS": 5,
+            "REFUTES": 5,
+            "NOT_ENOUGH_INFO": 5,
+            "DISPUTED": 12
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 12,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 11,
+            "DISPUTED": 17
+          },
+          "DISPUTED": {
+            "SUPPORTS": 5,
+            "REFUTES": 2,
+            "NOT_ENOUGH_INFO": 5,
+            "DISPUTED": 6
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    },
+    "30": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.36363636363636365,
+          "Harmonic Mean of F and A": 0.17424699621440723
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.5925925925925926,
+            "recall": 0.47058823529411764,
+            "f1-score": 0.5245901639344263,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.4,
+            "recall": 0.07407407407407407,
+            "f1-score": 0.125,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.3023255813953488,
+            "recall": 0.3170731707317073,
+            "f1-score": 0.30952380952380953,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.17307692307692307,
+            "recall": 0.5,
+            "f1-score": 0.2571428571428571,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 32,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 19,
+            "DISPUTED": 16
+          },
+          "REFUTES": {
+            "SUPPORTS": 7,
+            "REFUTES": 2,
+            "NOT_ENOUGH_INFO": 7,
+            "DISPUTED": 11
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 10,
+            "REFUTES": 2,
+            "NOT_ENOUGH_INFO": 13,
+            "DISPUTED": 16
+          },
+          "DISPUTED": {
+            "SUPPORTS": 5,
+            "REFUTES": 0,
+            "NOT_ENOUGH_INFO": 4,
+            "DISPUTED": 9
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    },
+    "50": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.34415584415584416,
+          "Harmonic Mean of F and A": 0.1719155333499467
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.43902439024390244,
+            "recall": 0.5294117647058824,
+            "f1-score": 0.48,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.2,
+            "recall": 0.037037037037037035,
+            "f1-score": 0.0625,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.3023255813953488,
+            "recall": 0.3170731707317073,
+            "f1-score": 0.30952380952380953,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.125,
+            "recall": 0.16666666666666666,
+            "f1-score": 0.14285714285714285,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 36,
+            "REFUTES": 2,
+            "NOT_ENOUGH_INFO": 22,
+            "DISPUTED": 8
+          },
+          "REFUTES": {
+            "SUPPORTS": 17,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 3,
+            "DISPUTED": 6
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 20,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 13,
+            "DISPUTED": 7
+          },
+          "DISPUTED": {
+            "SUPPORTS": 9,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 5,
+            "DISPUTED": 3
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    }
+  },
+  "PRIOR_WEIGHT": {
+    "0.0": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.42857142857142855,
+          "Harmonic Mean of F and A": 0.18081068771823286
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.5692307692307692,
+            "recall": 0.5441176470588235,
+            "f1-score": 0.556390977443609,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.5,
+            "recall": 0.18518518518518517,
+            "f1-score": 0.2702702702702703,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.3235294117647059,
+            "recall": 0.5365853658536586,
+            "f1-score": 0.4036697247706422,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.18181818181818182,
+            "recall": 0.1111111111111111,
+            "f1-score": 0.13793103448275862,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 37,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 30,
+            "DISPUTED": 0
+          },
+          "REFUTES": {
+            "SUPPORTS": 9,
+            "REFUTES": 5,
+            "NOT_ENOUGH_INFO": 9,
+            "DISPUTED": 4
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 11,
+            "REFUTES": 3,
+            "NOT_ENOUGH_INFO": 22,
+            "DISPUTED": 5
+          },
+          "DISPUTED": {
+            "SUPPORTS": 8,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 7,
+            "DISPUTED": 2
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    },
+    "0.25": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.4090909090909091,
+          "Harmonic Mean of F and A": 0.17901250031313412
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.4636363636363636,
+            "recall": 0.75,
+            "f1-score": 0.5730337078651685,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.5,
+            "recall": 0.07407407407407407,
+            "f1-score": 0.12903225806451613,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.2564102564102564,
+            "recall": 0.24390243902439024,
+            "f1-score": 0.25,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 51,
+            "REFUTES": 0,
+            "NOT_ENOUGH_INFO": 16,
+            "DISPUTED": 1
+          },
+          "REFUTES": {
+            "SUPPORTS": 19,
+            "REFUTES": 2,
+            "NOT_ENOUGH_INFO": 6,
+            "DISPUTED": 0
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 30,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 10,
+            "DISPUTED": 0
+          },
+          "DISPUTED": {
+            "SUPPORTS": 10,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 7,
+            "DISPUTED": 0
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    },
+    "0.5": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.3116883116883117,
+          "Harmonic Mean of F and A": 0.16755620817909242
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.4626865671641791,
+            "recall": 0.45588235294117646,
+            "f1-score": 0.45925925925925926,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.375,
+            "recall": 0.1111111111111111,
+            "f1-score": 0.17142857142857143,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.20930232558139536,
+            "recall": 0.21951219512195122,
+            "f1-score": 0.21428571428571427,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.1388888888888889,
+            "recall": 0.2777777777777778,
+            "f1-score": 0.18518518518518517,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 31,
+            "REFUTES": 2,
+            "NOT_ENOUGH_INFO": 25,
+            "DISPUTED": 10
+          },
+          "REFUTES": {
+            "SUPPORTS": 15,
+            "REFUTES": 3,
+            "NOT_ENOUGH_INFO": 4,
+            "DISPUTED": 5
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 15,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 9,
+            "DISPUTED": 16
+          },
+          "DISPUTED": {
+            "SUPPORTS": 6,
+            "REFUTES": 2,
+            "NOT_ENOUGH_INFO": 5,
+            "DISPUTED": 5
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    },
+    "0.75": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.37662337662337664,
+          "Harmonic Mean of F and A": 0.17569856700291483
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.58,
+            "recall": 0.4264705882352941,
+            "f1-score": 0.4915254237288136,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.5,
+            "recall": 0.14814814814814814,
+            "f1-score": 0.22857142857142856,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.3695652173913043,
+            "recall": 0.4146341463414634,
+            "f1-score": 0.39080459770114945,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.16,
+            "recall": 0.4444444444444444,
+            "f1-score": 0.23529411764705882,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 29,
+            "REFUTES": 0,
+            "NOT_ENOUGH_INFO": 20,
+            "DISPUTED": 19
+          },
+          "REFUTES": {
+            "SUPPORTS": 9,
+            "REFUTES": 4,
+            "NOT_ENOUGH_INFO": 6,
+            "DISPUTED": 8
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 6,
+            "REFUTES": 3,
+            "NOT_ENOUGH_INFO": 17,
+            "DISPUTED": 15
+          },
+          "DISPUTED": {
+            "SUPPORTS": 6,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 3,
+            "DISPUTED": 8
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    },
+    "1.0": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.38311688311688313,
+          "Harmonic Mean of F and A": 0.17639594386477542
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.5079365079365079,
+            "recall": 0.47058823529411764,
+            "f1-score": 0.48854961832061067,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.6666666666666666,
+            "recall": 0.14814814814814814,
+            "f1-score": 0.24242424242424243,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.30612244897959184,
+            "recall": 0.36585365853658536,
+            "f1-score": 0.3333333333333333,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.2222222222222222,
+            "recall": 0.4444444444444444,
+            "f1-score": 0.2962962962962963,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 32,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 21,
+            "DISPUTED": 14
+          },
+          "REFUTES": {
+            "SUPPORTS": 11,
+            "REFUTES": 4,
+            "NOT_ENOUGH_INFO": 7,
+            "DISPUTED": 5
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 16,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 15,
+            "DISPUTED": 9
+          },
+          "DISPUTED": {
+            "SUPPORTS": 4,
+            "REFUTES": 0,
+            "NOT_ENOUGH_INFO": 6,
+            "DISPUTED": 8
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    }
+  },
+  "MAX_LENGTH": {
+    "128": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.38311688311688313,
+          "Harmonic Mean of F and A": 0.17639594386477542
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.5294117647058824,
+            "recall": 0.39705882352941174,
+            "f1-score": 0.453781512605042,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.5,
+            "recall": 0.25925925925925924,
+            "f1-score": 0.34146341463414637,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.34615384615384615,
+            "recall": 0.43902439024390244,
+            "f1-score": 0.3870967741935484,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.1891891891891892,
+            "recall": 0.3888888888888889,
+            "f1-score": 0.2545454545454545,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 27,
+            "REFUTES": 5,
+            "NOT_ENOUGH_INFO": 22,
+            "DISPUTED": 14
+          },
+          "REFUTES": {
+            "SUPPORTS": 6,
+            "REFUTES": 7,
+            "NOT_ENOUGH_INFO": 9,
+            "DISPUTED": 5
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 10,
+            "REFUTES": 2,
+            "NOT_ENOUGH_INFO": 18,
+            "DISPUTED": 11
+          },
+          "DISPUTED": {
+            "SUPPORTS": 8,
+            "REFUTES": 0,
+            "NOT_ENOUGH_INFO": 3,
+            "DISPUTED": 7
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    },
+    "256": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.38961038961038963,
+          "Harmonic Mean of F and A": 0.17707535738445873
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.4878048780487805,
+            "recall": 0.5882352941176471,
+            "f1-score": 0.5333333333333333,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.6,
+            "recall": 0.2222222222222222,
+            "f1-score": 0.32432432432432434,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.2564102564102564,
+            "recall": 0.24390243902439024,
+            "f1-score": 0.25,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.17391304347826086,
+            "recall": 0.2222222222222222,
+            "f1-score": 0.1951219512195122,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 40,
+            "REFUTES": 2,
+            "NOT_ENOUGH_INFO": 18,
+            "DISPUTED": 8
+          },
+          "REFUTES": {
+            "SUPPORTS": 13,
+            "REFUTES": 6,
+            "NOT_ENOUGH_INFO": 8,
+            "DISPUTED": 0
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 18,
+            "REFUTES": 2,
+            "NOT_ENOUGH_INFO": 10,
+            "DISPUTED": 11
+          },
+          "DISPUTED": {
+            "SUPPORTS": 11,
+            "REFUTES": 0,
+            "NOT_ENOUGH_INFO": 3,
+            "DISPUTED": 4
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    },
+    "384": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.38311688311688313,
+          "Harmonic Mean of F and A": 0.17639594386477542
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.5645161290322581,
+            "recall": 0.5147058823529411,
+            "f1-score": 0.5384615384615384,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.42857142857142855,
+            "recall": 0.2222222222222222,
+            "f1-score": 0.2926829268292683,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.28888888888888886,
+            "recall": 0.3170731707317073,
+            "f1-score": 0.3023255813953488,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.15151515151515152,
+            "recall": 0.2777777777777778,
+            "f1-score": 0.19607843137254902,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 35,
+            "REFUTES": 2,
+            "NOT_ENOUGH_INFO": 18,
+            "DISPUTED": 13
+          },
+          "REFUTES": {
+            "SUPPORTS": 9,
+            "REFUTES": 6,
+            "NOT_ENOUGH_INFO": 9,
+            "DISPUTED": 3
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 11,
+            "REFUTES": 5,
+            "NOT_ENOUGH_INFO": 13,
+            "DISPUTED": 12
+          },
+          "DISPUTED": {
+            "SUPPORTS": 7,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 5,
+            "DISPUTED": 5
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    },
+    "512": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.37662337662337664,
+          "Harmonic Mean of F and A": 0.17569856700291483
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.559322033898305,
+            "recall": 0.4852941176470588,
+            "f1-score": 0.5196850393700787,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.5,
+            "recall": 0.18518518518518517,
+            "f1-score": 0.2702702702702703,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.3,
+            "recall": 0.36585365853658536,
+            "f1-score": 0.32967032967032966,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.14285714285714285,
+            "recall": 0.2777777777777778,
+            "f1-score": 0.18867924528301888,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 33,
+            "REFUTES": 0,
+            "NOT_ENOUGH_INFO": 22,
+            "DISPUTED": 13
+          },
+          "REFUTES": {
+            "SUPPORTS": 11,
+            "REFUTES": 5,
+            "NOT_ENOUGH_INFO": 8,
+            "DISPUTED": 3
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 9,
+            "REFUTES": 3,
+            "NOT_ENOUGH_INFO": 15,
+            "DISPUTED": 14
+          },
+          "DISPUTED": {
+            "SUPPORTS": 6,
+            "REFUTES": 2,
+            "NOT_ENOUGH_INFO": 5,
+            "DISPUTED": 5
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    },
+    "768": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.3051948051948052,
+          "Harmonic Mean of F and A": 0.16660342064260938
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.42028985507246375,
+            "recall": 0.4264705882352941,
+            "f1-score": 0.4233576642335766,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.2857142857142857,
+            "recall": 0.07407407407407407,
+            "f1-score": 0.11764705882352941,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.24444444444444444,
+            "recall": 0.2682926829268293,
+            "f1-score": 0.2558139534883721,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.15151515151515152,
+            "recall": 0.2777777777777778,
+            "f1-score": 0.19607843137254902,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 29,
+            "REFUTES": 2,
+            "NOT_ENOUGH_INFO": 24,
+            "DISPUTED": 13
+          },
+          "REFUTES": {
+            "SUPPORTS": 15,
+            "REFUTES": 2,
+            "NOT_ENOUGH_INFO": 4,
+            "DISPUTED": 6
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 19,
+            "REFUTES": 2,
+            "NOT_ENOUGH_INFO": 11,
+            "DISPUTED": 9
+          },
+          "DISPUTED": {
+            "SUPPORTS": 6,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 6,
+            "DISPUTED": 5
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    }
+  },
+  "BATCH_SIZE": {
+    "2": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.4090909090909091,
+          "Harmonic Mean of F and A": 0.17901250031313412
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.47474747474747475,
+            "recall": 0.6911764705882353,
+            "f1-score": 0.562874251497006,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.8,
+            "recall": 0.14814814814814814,
+            "f1-score": 0.25,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.2608695652173913,
+            "recall": 0.2926829268292683,
+            "f1-score": 0.27586206896551724,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 47,
+            "REFUTES": 0,
+            "NOT_ENOUGH_INFO": 21,
+            "DISPUTED": 0
+          },
+          "REFUTES": {
+            "SUPPORTS": 15,
+            "REFUTES": 4,
+            "NOT_ENOUGH_INFO": 7,
+            "DISPUTED": 1
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 25,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 12,
+            "DISPUTED": 3
+          },
+          "DISPUTED": {
+            "SUPPORTS": 12,
+            "REFUTES": 0,
+            "NOT_ENOUGH_INFO": 6,
+            "DISPUTED": 0
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    },
+    "4": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.35064935064935066,
+          "Harmonic Mean of F and A": 0.17271438239180176
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.42857142857142855,
+            "recall": 0.5294117647058824,
+            "f1-score": 0.47368421052631576,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.5,
+            "recall": 0.14814814814814814,
+            "f1-score": 0.22857142857142856,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.24444444444444444,
+            "recall": 0.2682926829268293,
+            "f1-score": 0.2558139534883721,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.17647058823529413,
+            "recall": 0.16666666666666666,
+            "f1-score": 0.17142857142857143,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 36,
+            "REFUTES": 2,
+            "NOT_ENOUGH_INFO": 21,
+            "DISPUTED": 9
+          },
+          "REFUTES": {
+            "SUPPORTS": 15,
+            "REFUTES": 4,
+            "NOT_ENOUGH_INFO": 8,
+            "DISPUTED": 0
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 24,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 11,
+            "DISPUTED": 5
+          },
+          "DISPUTED": {
+            "SUPPORTS": 9,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 5,
+            "DISPUTED": 3
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    },
+    "8": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.35064935064935066,
+          "Harmonic Mean of F and A": 0.17271438239180176
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.47540983606557374,
+            "recall": 0.4264705882352941,
+            "f1-score": 0.4496124031007752,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.38461538461538464,
+            "recall": 0.18518518518518517,
+            "f1-score": 0.25,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.30357142857142855,
+            "recall": 0.4146341463414634,
+            "f1-score": 0.35051546391752575,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.125,
+            "recall": 0.16666666666666666,
+            "f1-score": 0.14285714285714285,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 29,
+            "REFUTES": 4,
+            "NOT_ENOUGH_INFO": 26,
+            "DISPUTED": 9
+          },
+          "REFUTES": {
+            "SUPPORTS": 11,
+            "REFUTES": 5,
+            "NOT_ENOUGH_INFO": 7,
+            "DISPUTED": 4
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 12,
+            "REFUTES": 4,
+            "NOT_ENOUGH_INFO": 17,
+            "DISPUTED": 8
+          },
+          "DISPUTED": {
+            "SUPPORTS": 9,
+            "REFUTES": 0,
+            "NOT_ENOUGH_INFO": 6,
+            "DISPUTED": 3
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    },
+    "16": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.33766233766233766,
+          "Harmonic Mean of F and A": 0.17109374352514112
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.56,
+            "recall": 0.4117647058823529,
+            "f1-score": 0.4745762711864407,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.3,
+            "recall": 0.1111111111111111,
+            "f1-score": 0.16216216216216217,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.28888888888888886,
+            "recall": 0.3170731707317073,
+            "f1-score": 0.3023255813953488,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.16326530612244897,
+            "recall": 0.4444444444444444,
+            "f1-score": 0.23880597014925373,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 28,
+            "REFUTES": 3,
+            "NOT_ENOUGH_INFO": 19,
+            "DISPUTED": 18
+          },
+          "REFUTES": {
+            "SUPPORTS": 9,
+            "REFUTES": 3,
+            "NOT_ENOUGH_INFO": 8,
+            "DISPUTED": 7
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 8,
+            "REFUTES": 4,
+            "NOT_ENOUGH_INFO": 13,
+            "DISPUTED": 16
+          },
+          "DISPUTED": {
+            "SUPPORTS": 5,
+            "REFUTES": 0,
+            "NOT_ENOUGH_INFO": 5,
+            "DISPUTED": 8
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    },
+    "32": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.3181818181818182,
+          "Harmonic Mean of F and A": 0.16848040255842855
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.46875,
+            "recall": 0.22058823529411764,
+            "f1-score": 0.3,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.3,
+            "recall": 0.2222222222222222,
+            "f1-score": 0.2553191489361702,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.28378378378378377,
+            "recall": 0.5121951219512195,
+            "f1-score": 0.3652173913043478,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.25,
+            "recall": 0.3888888888888889,
+            "f1-score": 0.30434782608695654,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 15,
+            "REFUTES": 7,
+            "NOT_ENOUGH_INFO": 35,
+            "DISPUTED": 11
+          },
+          "REFUTES": {
+            "SUPPORTS": 5,
+            "REFUTES": 6,
+            "NOT_ENOUGH_INFO": 9,
+            "DISPUTED": 7
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 11,
+            "REFUTES": 6,
+            "NOT_ENOUGH_INFO": 21,
+            "DISPUTED": 3
+          },
+          "DISPUTED": {
+            "SUPPORTS": 1,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 9,
+            "DISPUTED": 7
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    }
+  },
+  "NUM_EPOCHS": {
+    "2": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.37012987012987014,
+          "Harmonic Mean of F and A": 0.17498250484258224
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.4444444444444444,
+            "recall": 0.4117647058823529,
+            "f1-score": 0.42748091603053434,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.35,
+            "recall": 0.25925925925925924,
+            "f1-score": 0.2978723404255319,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.29508196721311475,
+            "recall": 0.43902439024390244,
+            "f1-score": 0.35294117647058826,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.4,
+            "recall": 0.2222222222222222,
+            "f1-score": 0.2857142857142857,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 28,
+            "REFUTES": 7,
+            "NOT_ENOUGH_INFO": 30,
+            "DISPUTED": 3
+          },
+          "REFUTES": {
+            "SUPPORTS": 11,
+            "REFUTES": 7,
+            "NOT_ENOUGH_INFO": 7,
+            "DISPUTED": 2
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 17,
+            "REFUTES": 5,
+            "NOT_ENOUGH_INFO": 18,
+            "DISPUTED": 1
+          },
+          "DISPUTED": {
+            "SUPPORTS": 7,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 6,
+            "DISPUTED": 4
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    },
+    "4": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.37662337662337664,
+          "Harmonic Mean of F and A": 0.17569856700291483
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.4782608695652174,
+            "recall": 0.4852941176470588,
+            "f1-score": 0.48175182481751827,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.5384615384615384,
+            "recall": 0.25925925925925924,
+            "f1-score": 0.35,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.3076923076923077,
+            "recall": 0.3902439024390244,
+            "f1-score": 0.34408602150537637,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.1,
+            "recall": 0.1111111111111111,
+            "f1-score": 0.10526315789473684,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 33,
+            "REFUTES": 3,
+            "NOT_ENOUGH_INFO": 23,
+            "DISPUTED": 9
+          },
+          "REFUTES": {
+            "SUPPORTS": 9,
+            "REFUTES": 7,
+            "NOT_ENOUGH_INFO": 7,
+            "DISPUTED": 4
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 17,
+            "REFUTES": 3,
+            "NOT_ENOUGH_INFO": 16,
+            "DISPUTED": 5
+          },
+          "DISPUTED": {
+            "SUPPORTS": 10,
+            "REFUTES": 0,
+            "NOT_ENOUGH_INFO": 6,
+            "DISPUTED": 2
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    },
+    "6": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1819394927853672
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.5454545454545454,
+            "recall": 0.6176470588235294,
+            "f1-score": 0.5793103448275863,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.5,
+            "recall": 0.14814814814814814,
+            "f1-score": 0.22857142857142856,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.32,
+            "recall": 0.3902439024390244,
+            "f1-score": 0.3516483516483517,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.3157894736842105,
+            "recall": 0.3333333333333333,
+            "f1-score": 0.32432432432432434,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 42,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 22,
+            "DISPUTED": 3
+          },
+          "REFUTES": {
+            "SUPPORTS": 9,
+            "REFUTES": 4,
+            "NOT_ENOUGH_INFO": 7,
+            "DISPUTED": 7
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 19,
+            "REFUTES": 3,
+            "NOT_ENOUGH_INFO": 16,
+            "DISPUTED": 3
+          },
+          "DISPUTED": {
+            "SUPPORTS": 7,
+            "REFUTES": 0,
+            "NOT_ENOUGH_INFO": 5,
+            "DISPUTED": 6
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    },
+    "8": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.34415584415584416,
+          "Harmonic Mean of F and A": 0.1719155333499467
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.4852941176470588,
+            "recall": 0.4852941176470588,
+            "f1-score": 0.4852941176470588,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.42857142857142855,
+            "recall": 0.1111111111111111,
+            "f1-score": 0.17647058823529413,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.25,
+            "recall": 0.24390243902439024,
+            "f1-score": 0.24691358024691357,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.1794871794871795,
+            "recall": 0.3888888888888889,
+            "f1-score": 0.24561403508771928,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 33,
+            "REFUTES": 3,
+            "NOT_ENOUGH_INFO": 16,
+            "DISPUTED": 16
+          },
+          "REFUTES": {
+            "SUPPORTS": 12,
+            "REFUTES": 3,
+            "NOT_ENOUGH_INFO": 8,
+            "DISPUTED": 4
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 18,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 10,
+            "DISPUTED": 12
+          },
+          "DISPUTED": {
+            "SUPPORTS": 5,
+            "REFUTES": 0,
+            "NOT_ENOUGH_INFO": 6,
+            "DISPUTED": 7
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    },
+    "10": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.4675324675324675,
+          "Harmonic Mean of F and A": 0.18404599862210175
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.56,
+            "recall": 0.6176470588235294,
+            "f1-score": 0.5874125874125874,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.6666666666666666,
+            "recall": 0.14814814814814814,
+            "f1-score": 0.24242424242424243,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.36363636363636365,
+            "recall": 0.4878048780487805,
+            "f1-score": 0.4166666666666667,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.3333333333333333,
+            "recall": 0.3333333333333333,
+            "f1-score": 0.3333333333333333,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 42,
+            "REFUTES": 0,
+            "NOT_ENOUGH_INFO": 22,
+            "DISPUTED": 4
+          },
+          "REFUTES": {
+            "SUPPORTS": 9,
+            "REFUTES": 4,
+            "NOT_ENOUGH_INFO": 9,
+            "DISPUTED": 5
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 16,
+            "REFUTES": 2,
+            "NOT_ENOUGH_INFO": 20,
+            "DISPUTED": 3
+          },
+          "DISPUTED": {
+            "SUPPORTS": 8,
+            "REFUTES": 0,
+            "NOT_ENOUGH_INFO": 4,
+            "DISPUTED": 6
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    }
+  },
+  "LEARNING_RATE": {
+    "1e-05": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.3961038961038961,
+          "Harmonic Mean of F and A": 0.1777374927982444
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.475,
+            "recall": 0.5588235294117647,
+            "f1-score": 0.5135135135135135,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.46153846153846156,
+            "recall": 0.2222222222222222,
+            "f1-score": 0.3,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.3,
+            "recall": 0.36585365853658536,
+            "f1-score": 0.32967032967032966,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.18181818181818182,
+            "recall": 0.1111111111111111,
+            "f1-score": 0.13793103448275862,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 38,
+            "REFUTES": 3,
+            "NOT_ENOUGH_INFO": 25,
+            "DISPUTED": 2
+          },
+          "REFUTES": {
+            "SUPPORTS": 16,
+            "REFUTES": 6,
+            "NOT_ENOUGH_INFO": 4,
+            "DISPUTED": 1
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 17,
+            "REFUTES": 3,
+            "NOT_ENOUGH_INFO": 15,
+            "DISPUTED": 6
+          },
+          "DISPUTED": {
+            "SUPPORTS": 9,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 6,
+            "DISPUTED": 2
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    },
+    "2e-05": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.35714285714285715,
+          "Harmonic Mean of F and A": 0.1734912380369707
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.4918032786885246,
+            "recall": 0.4411764705882353,
+            "f1-score": 0.46511627906976744,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.5555555555555556,
+            "recall": 0.18518518518518517,
+            "f1-score": 0.2777777777777778,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.2777777777777778,
+            "recall": 0.36585365853658536,
+            "f1-score": 0.3157894736842105,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.16666666666666666,
+            "recall": 0.2777777777777778,
+            "f1-score": 0.20833333333333334,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 30,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 25,
+            "DISPUTED": 12
+          },
+          "REFUTES": {
+            "SUPPORTS": 13,
+            "REFUTES": 5,
+            "NOT_ENOUGH_INFO": 7,
+            "DISPUTED": 2
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 13,
+            "REFUTES": 2,
+            "NOT_ENOUGH_INFO": 15,
+            "DISPUTED": 11
+          },
+          "DISPUTED": {
+            "SUPPORTS": 5,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 7,
+            "DISPUTED": 5
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    },
+    "3e-05": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.38311688311688313,
+          "Harmonic Mean of F and A": 0.17639594386477542
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.6,
+            "recall": 0.39705882352941174,
+            "f1-score": 0.4778761061946903,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 1.0,
+            "recall": 0.14814814814814814,
+            "f1-score": 0.25806451612903225,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.32786885245901637,
+            "recall": 0.4878048780487805,
+            "f1-score": 0.39215686274509803,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.18181818181818182,
+            "recall": 0.4444444444444444,
+            "f1-score": 0.25806451612903225,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 27,
+            "REFUTES": 0,
+            "NOT_ENOUGH_INFO": 27,
+            "DISPUTED": 14
+          },
+          "REFUTES": {
+            "SUPPORTS": 6,
+            "REFUTES": 4,
+            "NOT_ENOUGH_INFO": 8,
+            "DISPUTED": 9
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 8,
+            "REFUTES": 0,
+            "NOT_ENOUGH_INFO": 20,
+            "DISPUTED": 13
+          },
+          "DISPUTED": {
+            "SUPPORTS": 4,
+            "REFUTES": 0,
+            "NOT_ENOUGH_INFO": 6,
+            "DISPUTED": 8
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    },
+    "4e-05": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.2922077922077922,
+          "Harmonic Mean of F and A": 0.16460658887051224
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.5666666666666667,
+            "recall": 0.25,
+            "f1-score": 0.3469387755102041,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.2,
+            "recall": 0.07407407407407407,
+            "f1-score": 0.10810810810810811,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.30303030303030304,
+            "recall": 0.4878048780487805,
+            "f1-score": 0.37383177570093457,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.125,
+            "recall": 0.3333333333333333,
+            "f1-score": 0.18181818181818182,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 17,
+            "REFUTES": 4,
+            "NOT_ENOUGH_INFO": 30,
+            "DISPUTED": 17
+          },
+          "REFUTES": {
+            "SUPPORTS": 5,
+            "REFUTES": 2,
+            "NOT_ENOUGH_INFO": 9,
+            "DISPUTED": 11
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 5,
+            "REFUTES": 2,
+            "NOT_ENOUGH_INFO": 20,
+            "DISPUTED": 14
+          },
+          "DISPUTED": {
+            "SUPPORTS": 3,
+            "REFUTES": 2,
+            "NOT_ENOUGH_INFO": 7,
+            "DISPUTED": 6
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    },
+    "5e-05": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.37662337662337664,
+          "Harmonic Mean of F and A": 0.17569856700291483
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.5,
+            "recall": 0.5735294117647058,
+            "f1-score": 0.5342465753424658,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.5,
+            "recall": 0.18518518518518517,
+            "f1-score": 0.2702702702702703,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.25,
+            "recall": 0.24390243902439024,
+            "f1-score": 0.24691358024691357,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.15384615384615385,
+            "recall": 0.2222222222222222,
+            "f1-score": 0.18181818181818182,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 39,
+            "REFUTES": 0,
+            "NOT_ENOUGH_INFO": 18,
+            "DISPUTED": 11
+          },
+          "REFUTES": {
+            "SUPPORTS": 13,
+            "REFUTES": 5,
+            "NOT_ENOUGH_INFO": 8,
+            "DISPUTED": 1
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 17,
+            "REFUTES": 4,
+            "NOT_ENOUGH_INFO": 10,
+            "DISPUTED": 10
+          },
+          "DISPUTED": {
+            "SUPPORTS": 9,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 4,
+            "DISPUTED": 4
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    }
+  },
+  "WARMUP_RATIO": {
+    "0.0": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.3961038961038961,
+          "Harmonic Mean of F and A": 0.1777374927982444
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.6379310344827587,
+            "recall": 0.5441176470588235,
+            "f1-score": 0.5873015873015873,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.26666666666666666,
+            "recall": 0.14814814814814814,
+            "f1-score": 0.19047619047619047,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.2727272727272727,
+            "recall": 0.2926829268292683,
+            "f1-score": 0.2823529411764706,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.21621621621621623,
+            "recall": 0.4444444444444444,
+            "f1-score": 0.2909090909090909,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 37,
+            "REFUTES": 4,
+            "NOT_ENOUGH_INFO": 20,
+            "DISPUTED": 7
+          },
+          "REFUTES": {
+            "SUPPORTS": 5,
+            "REFUTES": 4,
+            "NOT_ENOUGH_INFO": 8,
+            "DISPUTED": 10
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 10,
+            "REFUTES": 7,
+            "NOT_ENOUGH_INFO": 12,
+            "DISPUTED": 12
+          },
+          "DISPUTED": {
+            "SUPPORTS": 6,
+            "REFUTES": 0,
+            "NOT_ENOUGH_INFO": 4,
+            "DISPUTED": 8
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    },
+    "0.1": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.35714285714285715,
+          "Harmonic Mean of F and A": 0.1734912380369707
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.42857142857142855,
+            "recall": 0.5735294117647058,
+            "f1-score": 0.49056603773584906,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.3076923076923077,
+            "recall": 0.14814814814814814,
+            "f1-score": 0.2,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.28205128205128205,
+            "recall": 0.2682926829268293,
+            "f1-score": 0.275,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.09090909090909091,
+            "recall": 0.05555555555555555,
+            "f1-score": 0.06896551724137931,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 39,
+            "REFUTES": 4,
+            "NOT_ENOUGH_INFO": 19,
+            "DISPUTED": 6
+          },
+          "REFUTES": {
+            "SUPPORTS": 14,
+            "REFUTES": 4,
+            "NOT_ENOUGH_INFO": 6,
+            "DISPUTED": 3
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 24,
+            "REFUTES": 5,
+            "NOT_ENOUGH_INFO": 11,
+            "DISPUTED": 1
+          },
+          "DISPUTED": {
+            "SUPPORTS": 14,
+            "REFUTES": 0,
+            "NOT_ENOUGH_INFO": 3,
+            "DISPUTED": 1
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    },
+    "0.2": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.37012987012987014,
+          "Harmonic Mean of F and A": 0.17498250484258224
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.46987951807228917,
+            "recall": 0.5735294117647058,
+            "f1-score": 0.5165562913907285,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.2962962962962963,
+            "recall": 0.2962962962962963,
+            "f1-score": 0.2962962962962963,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.23255813953488372,
+            "recall": 0.24390243902439024,
+            "f1-score": 0.23809523809523808,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 39,
+            "REFUTES": 7,
+            "NOT_ENOUGH_INFO": 21,
+            "DISPUTED": 1
+          },
+          "REFUTES": {
+            "SUPPORTS": 12,
+            "REFUTES": 8,
+            "NOT_ENOUGH_INFO": 7,
+            "DISPUTED": 0
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 24,
+            "REFUTES": 7,
+            "NOT_ENOUGH_INFO": 10,
+            "DISPUTED": 0
+          },
+          "DISPUTED": {
+            "SUPPORTS": 8,
+            "REFUTES": 5,
+            "NOT_ENOUGH_INFO": 5,
+            "DISPUTED": 0
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    },
+    "0.3": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.37012987012987014,
+          "Harmonic Mean of F and A": 0.17498250484258224
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.45588235294117646,
+            "recall": 0.45588235294117646,
+            "f1-score": 0.45588235294117646,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.5,
+            "recall": 0.07407407407407407,
+            "f1-score": 0.12903225806451613,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.27848101265822783,
+            "recall": 0.5365853658536586,
+            "f1-score": 0.36666666666666664,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.6666666666666666,
+            "recall": 0.1111111111111111,
+            "f1-score": 0.19047619047619047,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 31,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 36,
+            "DISPUTED": 0
+          },
+          "REFUTES": {
+            "SUPPORTS": 14,
+            "REFUTES": 2,
+            "NOT_ENOUGH_INFO": 10,
+            "DISPUTED": 1
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 18,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 22,
+            "DISPUTED": 0
+          },
+          "DISPUTED": {
+            "SUPPORTS": 5,
+            "REFUTES": 0,
+            "NOT_ENOUGH_INFO": 11,
+            "DISPUTED": 2
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    },
+    "0.4": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.3051948051948052,
+          "Harmonic Mean of F and A": 0.16660342064260938
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.5384615384615384,
+            "recall": 0.3088235294117647,
+            "f1-score": 0.3925233644859813,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.5,
+            "recall": 0.037037037037037035,
+            "f1-score": 0.06896551724137931,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.296875,
+            "recall": 0.4634146341463415,
+            "f1-score": 0.3619047619047619,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.12244897959183673,
+            "recall": 0.3333333333333333,
+            "f1-score": 0.1791044776119403,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 21,
+            "REFUTES": 0,
+            "NOT_ENOUGH_INFO": 27,
+            "DISPUTED": 20
+          },
+          "REFUTES": {
+            "SUPPORTS": 7,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 10,
+            "DISPUTED": 9
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 8,
+            "REFUTES": 0,
+            "NOT_ENOUGH_INFO": 19,
+            "DISPUTED": 14
+          },
+          "DISPUTED": {
+            "SUPPORTS": 3,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 8,
+            "DISPUTED": 6
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    },
+    "0.5": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.36363636363636365,
+          "Harmonic Mean of F and A": 0.17424699621440723
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.4605263157894737,
+            "recall": 0.5147058823529411,
+            "f1-score": 0.4861111111111111,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.2,
+            "recall": 0.037037037037037035,
+            "f1-score": 0.0625,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.31666666666666665,
+            "recall": 0.4634146341463415,
+            "f1-score": 0.37623762376237624,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.07692307692307693,
+            "recall": 0.05555555555555555,
+            "f1-score": 0.06451612903225806,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 35,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 29,
+            "DISPUTED": 3
+          },
+          "REFUTES": {
+            "SUPPORTS": 16,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 5,
+            "DISPUTED": 5
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 16,
+            "REFUTES": 2,
+            "NOT_ENOUGH_INFO": 19,
+            "DISPUTED": 4
+          },
+          "DISPUTED": {
+            "SUPPORTS": 9,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 7,
+            "DISPUTED": 1
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    }
+  },
+  "WEIGHT_DECAY": {
+    "0.0": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.38311688311688313,
+          "Harmonic Mean of F and A": 0.17639594386477542
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.6666666666666666,
+            "recall": 0.4411764705882353,
+            "f1-score": 0.5309734513274337,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.37037037037037035,
+            "recall": 0.37037037037037035,
+            "f1-score": 0.37037037037037035,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.28205128205128205,
+            "recall": 0.2682926829268293,
+            "f1-score": 0.275,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.18604651162790697,
+            "recall": 0.4444444444444444,
+            "f1-score": 0.26229508196721313,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 30,
+            "REFUTES": 8,
+            "NOT_ENOUGH_INFO": 17,
+            "DISPUTED": 13
+          },
+          "REFUTES": {
+            "SUPPORTS": 3,
+            "REFUTES": 10,
+            "NOT_ENOUGH_INFO": 6,
+            "DISPUTED": 8
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 9,
+            "REFUTES": 7,
+            "NOT_ENOUGH_INFO": 11,
+            "DISPUTED": 14
+          },
+          "DISPUTED": {
+            "SUPPORTS": 3,
+            "REFUTES": 2,
+            "NOT_ENOUGH_INFO": 5,
+            "DISPUTED": 8
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    },
+    "0.01": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.36363636363636365,
+          "Harmonic Mean of F and A": 0.17424699621440723
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.4578313253012048,
+            "recall": 0.5588235294117647,
+            "f1-score": 0.5033112582781457,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.5,
+            "recall": 0.07407407407407407,
+            "f1-score": 0.12903225806451613,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.2916666666666667,
+            "recall": 0.34146341463414637,
+            "f1-score": 0.3146067415730337,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.10526315789473684,
+            "recall": 0.1111111111111111,
+            "f1-score": 0.10810810810810811,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 38,
+            "REFUTES": 0,
+            "NOT_ENOUGH_INFO": 23,
+            "DISPUTED": 7
+          },
+          "REFUTES": {
+            "SUPPORTS": 17,
+            "REFUTES": 2,
+            "NOT_ENOUGH_INFO": 5,
+            "DISPUTED": 3
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 19,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 14,
+            "DISPUTED": 7
+          },
+          "DISPUTED": {
+            "SUPPORTS": 9,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 6,
+            "DISPUTED": 2
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    },
+    "0.05": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.37662337662337664,
+          "Harmonic Mean of F and A": 0.17569856700291483
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.5535714285714286,
+            "recall": 0.45588235294117646,
+            "f1-score": 0.5,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.4444444444444444,
+            "recall": 0.14814814814814814,
+            "f1-score": 0.2222222222222222,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.32142857142857145,
+            "recall": 0.43902439024390244,
+            "f1-score": 0.3711340206185567,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.15151515151515152,
+            "recall": 0.2777777777777778,
+            "f1-score": 0.19607843137254902,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 31,
+            "REFUTES": 2,
+            "NOT_ENOUGH_INFO": 22,
+            "DISPUTED": 13
+          },
+          "REFUTES": {
+            "SUPPORTS": 9,
+            "REFUTES": 4,
+            "NOT_ENOUGH_INFO": 9,
+            "DISPUTED": 5
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 10,
+            "REFUTES": 3,
+            "NOT_ENOUGH_INFO": 18,
+            "DISPUTED": 10
+          },
+          "DISPUTED": {
+            "SUPPORTS": 6,
+            "REFUTES": 0,
+            "NOT_ENOUGH_INFO": 7,
+            "DISPUTED": 5
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    },
+    "0.1": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.4025974025974026,
+          "Harmonic Mean of F and A": 0.17838300092764378
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.4479166666666667,
+            "recall": 0.6323529411764706,
+            "f1-score": 0.524390243902439,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.375,
+            "recall": 0.1111111111111111,
+            "f1-score": 0.17142857142857143,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.3333333333333333,
+            "recall": 0.3902439024390244,
+            "f1-score": 0.3595505617977528,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 43,
+            "REFUTES": 2,
+            "NOT_ENOUGH_INFO": 23,
+            "DISPUTED": 0
+          },
+          "REFUTES": {
+            "SUPPORTS": 17,
+            "REFUTES": 3,
+            "NOT_ENOUGH_INFO": 5,
+            "DISPUTED": 2
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 24,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 16,
+            "DISPUTED": 0
+          },
+          "DISPUTED": {
+            "SUPPORTS": 12,
+            "REFUTES": 2,
+            "NOT_ENOUGH_INFO": 4,
+            "DISPUTED": 0
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    },
+    "0.2": {
+      "results": {
+        "Baseline": {
+          "Evidence Retrieval F-score (F)": 0.09183673469387757,
+          "Claim Classification Accuracy (A)": 0.44155844155844154,
+          "Harmonic Mean of F and A": 0.1520496894409938
+        },
+        "Full System": {
+          "Evidence Retrieval F-score (F)": 0.11457431457431458,
+          "Claim Classification Accuracy (A)": 0.38311688311688313,
+          "Harmonic Mean of F and A": 0.17639594386477542
+        },
+        "Diagnostic": {
+          "SUPPORTS": {
+            "precision": 0.543859649122807,
+            "recall": 0.45588235294117646,
+            "f1-score": 0.496,
+            "support": 68.0
+          },
+          "REFUTES": {
+            "precision": 0.38461538461538464,
+            "recall": 0.18518518518518517,
+            "f1-score": 0.25,
+            "support": 27.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.2903225806451613,
+            "recall": 0.43902439024390244,
+            "f1-score": 0.34951456310679613,
+            "support": 41.0
+          },
+          "DISPUTED": {
+            "precision": 0.22727272727272727,
+            "recall": 0.2777777777777778,
+            "f1-score": 0.25,
+            "support": 18.0
+          }
+        },
+        "Confusion Matrix": {
+          "SUPPORTS": {
+            "SUPPORTS": 31,
+            "REFUTES": 4,
+            "NOT_ENOUGH_INFO": 26,
+            "DISPUTED": 7
+          },
+          "REFUTES": {
+            "SUPPORTS": 8,
+            "REFUTES": 5,
+            "NOT_ENOUGH_INFO": 11,
+            "DISPUTED": 3
+          },
+          "NOT_ENOUGH_INFO": {
+            "SUPPORTS": 13,
+            "REFUTES": 3,
+            "NOT_ENOUGH_INFO": 18,
+            "DISPUTED": 7
+          },
+          "DISPUTED": {
+            "SUPPORTS": 5,
+            "REFUTES": 1,
+            "NOT_ENOUGH_INFO": 7,
+            "DISPUTED": 5
+          }
+        },
+        "Retrieval Diagnostics": {
+          "mean_retrieval_fscore": 0.11457431457431458,
+          "claims_with_correct_evidence": 58,
+          "total_claims": 154
+        }
+      }
+    }
+  }
+}
